@@ -1,0 +1,87 @@
+
+.news-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* İçeriği ortalayacak */
+  padding: 20px;
+  width: 100%;  /* Tüm genişliği kaplasın */
+}
+
+.content {
+  width: 100%; /* Tam genişlikte olsun */
+  max-width: 1200px; /* İçeriğin fazla genişlememesi için bir sınır ekleyelim */
+  margin: 0 auto;  /* İçeriği ortalayacak */
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px; /* Başlık boyutunu büyüttük */
+  font-weight: bold; /* Başlıkları koyulaştırdık */
+}
+
+.image-row {
+  display: flex;
+  justify-content: flex-start; /* Resimleri sola kaydırarak hizalı olmalarını sağlıyoruz */
+  gap: 5px; /* Resimler arasındaki boşluğu azaltıyoruz */
+  margin-bottom: 20px;
+}
+
+.image-row img {
+  width: 50%; /* Resimlerin genişliğini biraz daha artırarak, daha fazla alan kaplamalarını sağlıyoruz */
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-row img:hover {
+  transform: scale(1.5); /* Resim üzerine gelindiğinde %10 büyüme */
+}
+
+
+
+.news-img {
+  display: block;
+  margin: 30px auto;
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+.content p {
+  font-size: 18px; /* Paragraf yazı boyutunu büyütüyoruz */
+  line-height: 1.6; /* Satır yüksekliği artırarak okunabilirliği artırıyoruz */
+  color: #333; /* Yazı rengini koyulaştırıyoruz */
+  font-weight: normal; /* Paragrafları normal kalınlıkta tutuyoruz */
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  display: flex; /* Resim ve başlık yan yana olsun */
+  align-items: center; /* Resim ve başlık hizalı olsun */
+  font-weight: bold; /* Metinleri koyulaştırdık */
+}
+
+.sidebar ul li img.small-image {
+  width: 30px; /* Resimleri küçük yapalım */
+  height: 30px;
+  margin-right: 10px; /* Resim ile başlık arasında boşluk bırakalım */
+}
+

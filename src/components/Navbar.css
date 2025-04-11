@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #007BFF;
+    padding: 10px 40px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: flex-end; /* Yazıları sağa yasla */
+    width: 100%; /* Navbar'ın tamamını kapsasın */
+  }
+  
